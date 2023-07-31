@@ -10,7 +10,7 @@ fs.readdir;
 const app = express();
 const port = 3000;
 
-// middleware
+// middlewares
 app.use(express.static("public"));
 
 app.use(bodyParser.json());
